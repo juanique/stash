@@ -1,0 +1,40 @@
+body {
+  background-image: url('http://railroadrevivaltour.com/wp-content/themes/railroad-revival/images/bg-cloth.jpg');
+  padding: 50px;
+  padding-top: 10px;
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+  color: #959555;
+  font-size: 15pt;}
+
+a {
+  color: #00B7FF;}
+
+label, input {
+  margin-top: 10px;}
+
+label {
+  width: 80px;
+  float: left;
+  font-weight: : bold;
+  text-shadow: #772 0 0 0.65em;}
+
+input {
+  border: 1px solid #CC3;
+  padding-left: 5px;
+  width: 80%;
+  float: left;
+  color: #772;
+  border-radius: 5px;
+  font-size: 11pt;
+  font-weight: : bold;
+  padding: 5px;}
+
+br {
+  clear: left;}
+
+input:focus {
+  outline: none;}
+
+
+#valueContainer {
+  margin-top: 20px;}

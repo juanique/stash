@@ -1,0 +1,12 @@
+- var jquery_path = "http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"
+
+!!!
+html
+  head
+    script(type='text/javascript', src='#{jquery_path}')
+    script(type='text/javascript', src='/socket.io/socket.io.js')
+    script(type='text/javascript', src='/javascripts/coffee-script.js')
+    script(type='text/coffeescript', src='/coffeescripts/block.coffee')
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body!= body
